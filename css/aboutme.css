@@ -1,0 +1,116 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PAGE STYLE */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #22264f, #314265, #48659b);
+    color: #222;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* MAIN CONTAINER */
+body > div {
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* HEADER (NAME & ROLE) */
+body > div:first-child {
+    text-align: center;
+    background: linear-gradient(135deg, #000000, #293856);
+    color: #fff;
+}
+
+body > div:first-child h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+body > div:first-child h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.9;
+}
+
+body > div:first-child div {
+    margin-top: 15px;
+}
+
+body > div:first-child h3 {
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 0.85;
+}
+
+/* SECTION TITLES */
+h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    border-left: 5px solid #1b1f40;
+    padding-left: 12px;
+}
+
+/* ABOUT ME */
+p {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #444;
+}
+
+/* LISTS */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+/* EXPERIENCE */
+.exp h4 {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.exp p {
+    margin-left: 10px;
+}
+
+/* EDUCATION */
+.Educ div {
+    margin-top: 15px;
+}
+
+.Educ h4 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    body > div {
+        padding: 20px;
+    }
+
+    body > div:first-child h1 {
+        font-size: 26px;
+    }
+}
